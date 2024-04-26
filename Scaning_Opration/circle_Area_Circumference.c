@@ -1,4 +1,5 @@
-#include <stdio.h>  // This is the standard input/output library in C, which allows the program to perform input and output operations.
+#include <stdio.h>  
+// This is the standard input/output library in C, which allows the program to perform input and output operations.
 
 int main()  // This is the entry point of the program.
 {

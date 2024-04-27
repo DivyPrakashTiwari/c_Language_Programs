@@ -15,9 +15,11 @@ int main()
 
     // Read the input from the user and store it in the variable 'y'
     scanf ("%d",&y);
-
-    if((y%400==0) || (y%4==0 && y%100!=0))    {
-        // If the remainder is 0, print "The given year is a Leap Year"
+    
+    // A leap year is either divisible by 400 OR divisible by 4 but not divisible by 100.
+    
+    if((y%400==0) || (y%4==0 && y%100!=0))    
+    {
         printf("The given year is a Leap Year");
     }
     else 

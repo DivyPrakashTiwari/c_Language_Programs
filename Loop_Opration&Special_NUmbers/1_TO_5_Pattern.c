@@ -14,6 +14,8 @@ int main()
     // Read user input and store it in variable 'n'
     scanf("%d", &n);
 
+     printf("The pattern is : ");
+
     // Initialize variables 'i' and 'k'
     i = n;
     k = 0;

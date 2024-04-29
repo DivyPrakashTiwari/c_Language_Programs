@@ -6,11 +6,7 @@ int main() {
     int n, m, c, sum, diff, pro;
     float div;
 
-    // Prompt user to enter two digits
-    printf("Enter the digits\n");
-    scanf("%d%d", &n, &m);
-
-    // Display menu for user to choose operation
+    printf("WELCOME TO CALCULATOR\n");
     printf("1. for addition \n");
     printf("2. for subtraction\n");
     printf("3. for multiplication\n");
@@ -18,6 +14,12 @@ int main() {
     printf("Enter your choice \n");
     scanf("%d", &c);
 
+    // Prompt user to enter two digits
+    printf("Enter the digits\n");
+    scanf("%d%d", &n, &m);
+
+    // Display menu for user to choose operation
+    
     // Use switch statement to perform selected operation
     switch (c) {
         case 1:

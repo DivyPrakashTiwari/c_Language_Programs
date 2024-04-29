@@ -7,6 +7,7 @@ int main()
     // Declare an integer variable 'n' to store the weekday number
     int n;
 
+    printf("WELCOME TO WEEKDAYS");
     // Prompt the user to enter the weekday number
     printf("Enter the weekday number: ");
 

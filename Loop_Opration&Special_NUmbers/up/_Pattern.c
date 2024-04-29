@@ -11,6 +11,8 @@ int main() {
     // Scan and store the input value in variable n
     scanf("%d", &n);
 
+     printf("The pattern is : ");
+    
     // Loop through rows
     for (i; i <= n; i++) {
         // Loop through columns

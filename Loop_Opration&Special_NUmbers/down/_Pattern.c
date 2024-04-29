@@ -10,6 +10,8 @@ int main() {
     // Read user input and store it in the variable 'n'
     scanf("%d", &n);
 
+     printf("The pattern is : ");
+
     // Loop through the rows from the last to the first
     for (i = n; i > 0; i--) {
         // Loop through the columns from the current row to the first

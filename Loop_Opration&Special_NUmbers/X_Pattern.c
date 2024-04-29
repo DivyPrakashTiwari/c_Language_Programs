@@ -10,6 +10,8 @@ int main()
     // Prompt user to enter the number of rows
     printf("Enter the number of rows: ");
     scanf("%d", &n);
+    
+    printf("The pattern is : ");
 
     // Loop through rows from n to 1
     for (i = n; i >= 1; i--)

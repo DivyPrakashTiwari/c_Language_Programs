@@ -11,6 +11,8 @@ int main()
     printf("Enter the number of rows: ");
     scanf("%d", &n);
 
+    printf("The pattern is : ");
+
     // Nested loops to print the pattern
     for (i = 1; i <= n; i++)
     {

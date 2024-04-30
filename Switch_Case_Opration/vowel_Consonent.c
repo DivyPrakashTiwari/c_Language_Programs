@@ -10,13 +10,14 @@ int main()
     // Declare a character variable 'ch' to store the user's input character
     char ch;
 
+    // Display the menu options for the user
+    printf("WELCOME TO ALPHABET CHECK");
+    printf("1. For checking vowels\n");
+    printf("2. For checking consonants\n");
+
     // Prompt the user to enter a character
     printf("Enter the character: ");
     scanf("%c", &ch);
-
-    // Display the menu options for the user
-    printf("1. For checking vowels\n");
-    printf("2. For checking consonants\n");
 
     // Prompt the user to enter their choice
     printf("Enter your choice: ");

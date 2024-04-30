@@ -2,6 +2,7 @@
 
 int main() {
     // Prompt user to enter the choice for the month
+    printf("WELCOME TO CALENDAR\n");
     printf("Enter the choice for the month (1-12): ");
     int n;
     scanf("%d", &n);

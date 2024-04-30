@@ -2,28 +2,23 @@
 
 int main()
 {
-    printf("Program for fibonaaci\n");
+    printf("Program for Fibonacci\n");
             
             // Variables for Fibonacci sequence
-            int n, fib, i;
-
-            // Initialize the first Fibonacci number to 0
-            fib = 0;
-
-            // Initialize the counter to -1
-            i = -1;
+            int n, t1 = 0, t2 = 1, nextTerm = 0, i;
 
             // Prompt the user to enter the length of the sequence
-            printf("enter the length of the fibonacci sequence\n");
+            printf("Enter the length of the Fibonacci sequence\n");
             scanf("%d",&n);
 
             // Display the Fibonacci sequence
-            printf("the fibonacci sequence");
-            while (i <= n)
+            printf("The Fibonacci sequence: ");
+            for (i = 1; i <= n; ++i)
             {
-                fib = fib + i;
-                i++;
-                printf("%d ", fib);
+                printf("%d ", t1);
+                nextTerm = t1 + t2;
+                t1 = t2;
+                t2 = nextTerm;
             }
     
     return 0;

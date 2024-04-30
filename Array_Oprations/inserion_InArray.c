@@ -22,11 +22,11 @@ int main()
     }
 
     // Prompt user to enter the desired position
-    printf("Enter the desired position\n");
+    printf("Enter the desired position to enter the element\n");
     scanf("%d", &p);
 
     // Prompt user to enter the number
-    printf("Enter the number\n");
+    printf("Enter the element\n");
     scanf("%d", &nn);
 
     // Replace the number at the desired position with the entered number

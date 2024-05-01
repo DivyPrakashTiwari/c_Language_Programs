@@ -9,10 +9,25 @@ int differ(int arr[]);
 int main()
 {
     // Initialize variables for average and difference
-    int avg, df;
-
-    // Initialize an array of integers
-    int ar[] = {150, 250, 340, 180, 220, 270};
+    int avg, df, n;
+    
+    // Prompt the user to enter the size of the array
+    printf("Enter the size of array\n");
+    
+    // Read the size of the array from the user
+    scanf("%d", &n);
+    
+    // Declare an array of size 'n'
+    int arr[n];
+    
+    // Prompt the user to enter the numbers in the array
+    printf("Enter the numbers in array \n");
+    
+    // Read the numbers from the user and store them in the array
+    for (i = 0; i < n; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
 
     // Calculate the average of the numbers in the array
     avg = avrg(ar);

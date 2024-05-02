@@ -3,25 +3,27 @@
 int main ()
 {
 int e,e1,e2,e3,e4,e5,e6,e7;
-printf("welcome to the menu driven program\n");
-printf("enter the experiment number you want to access\n");
-printf("1.Experiment 1\n");
-printf("2.Experiment 2\n");
-printf("3.Experiment 3\n");
-printf("4.Experiment 4\n");
-printf("5.Experiment 5\n");
-printf("6.Experiment 6\n");
-printf("7.Experiment 7\n");
+printf("Welcome To The Menu Driven Program\n");
+printf("Enter the Opration you want to access\n");
+printf("0.Printing Oprations\n");
+printf("1.Array Oprations\n");
+printf("2.Arthematic Oprations\n");
+printf("3.Function Oprations\n");
+printf("4.If_Else Oprations\n");
+printf("5.Loop Opration\n");
+printf("6.Number Oprations \n");
+printf("7.Scaning Oprations\n");
+printf("8.Switch Case Oprations\n");
 scanf("%d",&e);
 switch(e)
 {
 	case 1:
 		{
-			printf("EXPERIMENT 1\n");
-			printf("enter the program you want to run\n");
-			printf("1. Program 1\n");
-			printf("2. Program 2\n");
-			printf("3. Program 3\n");
+			printf("Programs\n");
+			printf("1. WAP_Hello World \n");
+			printf("2. WAP_Sum_Of_Two_Digit\n");
+			printf("3. WAP_Personal_DATA \n");
+			printf("Enter the program you want to run\n");
 			scanf("%d",&e1);
 			switch(e1)
 			{
